@@ -10,19 +10,19 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 This is the backend API for the **CRUD Fitness Planner**, a fitness planning app where users get a calendar they can fill with workout plans. It was built as an introductory project for my internship at **Aboitiz Foods**, meant to get me familiar with the tech stack (NestJS, React, MySQL) used on their engineering team.
 
 This service handles the CRUD operations for workout plans — creating, reading, updating, and deleting entries tied to specific calendar dates — and exposes them as a REST API consumed by the [frontend](#) React app.
 
-## ✨ Features
+## Features
 
 - 📅 CRUD endpoints for workout plans mapped to calendar dates
 - 🗄️ MySQL database integration for persistent storage
 - 🔧 Modular NestJS architecture (controllers, services, modules)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -31,7 +31,7 @@ This service handles the CRUD operations for workout plans — creating, reading
 | Language | TypeScript |
 | Editor | Visual Studio Code |
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Install dependencies
@@ -45,7 +45,7 @@ npm run start:dev
 
 The API will be available at `http://localhost:3000` by default.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
